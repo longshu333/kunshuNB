@@ -1013,6 +1013,20 @@ guis:AddButton({
 })
 
 guis:AddButton({
+	Name = "Doors绕过",
+	Callback = function()
+      			game:GetService("ReplicatedStorage").ItemShop.Lighter:SetAttribute('Price',5)  
+  	end    
+})
+
+guis:AddButton({
+	Name = "Doors超级",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://pastebin.com/raw/R8QMbhzv')))()
+  	end    
+})
+
+guis:AddButton({
 	Name = "Doors GUI v1.2",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/AnAvaragelilmemer/AnAvaragelilmemer/main/doorsspeedrun"))()
