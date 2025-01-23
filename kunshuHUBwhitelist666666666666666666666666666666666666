@@ -1,0 +1,45 @@
+           if game.Players.LocalPlayer.Name == game.Players.LocalPlayer.Character.Name and game.Players.LocalPlayer.DisplayName == REN_displayName and game.Players.LocalPlayer.Name == REN_name and game.Players.LocalPlayer.Character.Name == REN_name and game.Players.LocalPlayer.CharacterAppearanceId == game.Players.LocalPlayer.UserId then
+           if whitelist[game.Players.LocalPlayer.Name] then
+               Ren_zt = true
+               ab_laoye = true
+           else
+               local seedname = name
+               seed_try('否',seedname)
+               game.Players.LocalPlayer:Kick(kick) 
+           end
+           else
+              local seedname = name
+               seed(seedname) 
+               game.Players.LocalPlayer:Kick('不要改名') 
+           end
+
+           if Ren_zt == true then
+           if ab_laoye == true then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/longshu333/kunshuNB/refs/heads/main/kunshu66666666666666666666666666666666666666huiguile"))()---[放脚本]
+---                 [       坤       叔               制                   作                       可以联合                by坤叔                                                 鸡你太美                                    report/7.440077938e-39/775478/8/654/8/5/5/6/7/75/6/7/438774/568/47/8884/854/974/8+-'="//2-2=|2">2+;2{坤坤}                                                     ]
+
+
+
+            local seedname = name
+            seed_try('是',seedname)
+           print('白名单验证成功')
+           notify("通知","验证白名单成功",2)
+           wait(0.1)
+           notify("通知","正在加载脚本...",2)
+
+           scprit()
+           end
+
+
+      end
+
+
+
+   end
+       end
+
+
+    local name = "坤脚本"
+    local whitelist = "https://raw.githubusercontent.com/XiaoYunCN/UWU/main/wait.lua"--白名单
+    local kick = "没有白名单"
+    Ren_Whitelist_Protected_Sys(name,whitelist,kick)
